@@ -1,0 +1,23 @@
+*.class
+*.jar
+*~
+
+#sbt
+/project/target
+/project/project/target
+
+/target/
+/*/target/
+/src/main/scala/target/
+
+#other
+
+#eclipse, ensime
+*.classpath
+*.project
+*.cache
+*.settings
+.ensime
+.ensime_lucene/
+
+*DS_Store
